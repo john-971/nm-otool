@@ -30,5 +30,4 @@ char		*ft_strstr(char *str, char *to_find)
 	if (str[i] == '\0')
 		return (NULL);
 	return (ft_strstr(str + 1, to_find));
-	return (NULL);
 }
